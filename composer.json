@@ -1,0 +1,27 @@
+{
+    "name": "vertera-dev/vertera-geo",
+    "description": "Vertera Geo",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Timofeev",
+            "email": "nighthtr@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2|^8.0",
+        "ext-dom": "*",
+        "ext-zip": "*",
+        "ext-json": "*",
+        "ext-xmlreader": "*",
+        "symfony/http-client": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "VerteraGeo\\": "src/"
+        }
+    }
+}
