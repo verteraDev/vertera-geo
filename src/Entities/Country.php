@@ -69,6 +69,11 @@ class Country
     public ?array $lang_json;
 
     /**
+     * @var string|null
+     */
+    public ?string $language;
+
+    /**
      * @var bool|null
      */
     public ?bool $is_active;
