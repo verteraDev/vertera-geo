@@ -21,75 +21,75 @@ class City
     /**
      * @var int|null
      */
-    public ?int $country_id;
+    public ?int $country_id = null;
 
     /**
      * @var int|null
      */
-    public ?int $region_id;
+    public ?int $region_id = null;
 
     /**
      * @var Translation[]|null
      */
-    public ?array $name;
+    public ?array $name = null;
 
     /**
      * @var Translation[]|null
      */
-    public ?array $area;
+    public ?array $area = null;
 
     /**
      * @var bool|null
      */
-    public ?bool $impotant;
+    public ?bool $impotant = null;
 
     /**
      * @var bool|null
      */
-    public ?bool $show_in_request;
+    public ?bool $show_in_request = null;
 
     /**
      * @var float|null
      */
-    public ?float $lat;
+    public ?float $lat = null;
 
     /**
      * @var float|null
      */
-    public ?float $lng;
+    public ?float $lng = null;
 
     /**
      * @var array|null
      */
-    public ?array $phone_code_json;
+    public ?array $phone_code_json = null;
 
     /**
      * @var int|null
      */
-    public ?int $time_zone_num;
+    public ?int $time_zone_num = null;
 
     /**
      * @var int|null
      */
-    public ?int $level_const;
+    public ?int $level_const = null;
 
     /**
      * @var string|null
      */
-    public ?string $iso;
+    public ?string $iso = null;
 
     /**
      * @var string|null
      */
-    public ?string $wiki;
+    public ?string $wiki = null;
 
     /**
      * @var bool|null
      */
-    public ?bool $is_capital;
+    public ?bool $is_capital = null;
 
     /**
      * @var int|null
      */
-    public ?int $dpd_location_city_id;
+    public ?int $dpd_location_city_id = null;
 }

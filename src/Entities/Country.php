@@ -21,85 +21,85 @@ class Country
     /**
      * @var Translation[]|null
      */
-    public ?array $name;
+    public ?array $name = null;
 
     /**
      * @var Translation[]|null
      */
-    public ?array $fullname;
+    public ?array $fullname = null;
 
     /**
      * @var int|null
      */
-    public ?int $phone_code;
+    public ?int $phone_code = null;
 
     /**
      * @var string|null
      */
-    public ?string $iso;
+    public ?string $iso = null;
 
     /**
      * @var string|null
      */
-    public ?string $alpha3;
+    public ?string $alpha3 = null;
 
     /**
      * @var string|null
      */
-    public ?string $alpha2;
+    public ?string $alpha2 = null;
 
     /**
      * @var int|null
      */
-    public ?int $num_code;
+    public ?int $num_code = null;
 
     /**
      * @var int|null
      */
-    public ?int $mcc;
+    public ?int $mcc = null;
 
     /**
      * @var int|null
      */
-    public ?int $location_const;
+    public ?int $location_const = null;
 
     /**
      * @var array|null
      */
-    public ?array $lang_json;
+    public ?array $lang_json = null;
 
     /**
      * @var string|null
      */
-    public ?string $language;
+    public ?string $language = null;
 
     /**
      * @var bool|null
      */
-    public ?bool $is_active;
+    public ?bool $is_active = null;
 
     /**
      * @var int|null
      */
-    public ?int $capital_id;
+    public ?int $capital_id = null;
 
     /**
      * @var float|null
      */
-    public ?float $lat;
+    public ?float $lat = null;
 
     /**
      * @var float|null
      */
-    public ?float $lng;
+    public ?float $lng = null;
 
     /**
      * @var string|null
      */
-    public ?string $currency_code;
+    public ?string $currency_code = null;
 
     /**
      * @var int|null
      */
-    public ?int $os_id;
+    public ?int $os_id = null;
 }

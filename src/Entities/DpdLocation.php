@@ -21,64 +21,64 @@ class DpdLocation
     /**
      * @var string|null
      */
-    public ?string $code_name;
+    public ?string $code_name = null;
 
     /**
      * @var string|null
      */
-    public ?string $country_name;
+    public ?string $country_name = null;
 
     /**
      * @var string|null
      */
-    public ?string $country_code;
+    public ?string $country_code = null;
 
     /**
      * @var string|null
      */
-    public ?string $region_code;
+    public ?string $region_code = null;
 
     /**
      * @var string|null
      */
-    public ?string $region_name;
+    public ?string $region_name = null;
 
     /**
      * @var int|null
      */
-    public ?int $city_id;
+    public ?int $city_id = null;
 
     /**
      * @var string|null
      */
-    public ?string $city_code;
+    public ?string $city_code = null;
 
     /**
      * @var string|null
      */
-    public ?string $city_name;
+    public ?string $city_name = null;
 
     /**
      * @var string|null
      */
-    public ?string $city_abbr;
+    public ?string $city_abbr = null;
 
     /**
      * @var int|null
      */
-    public ?int $location_id;
+    public ?int $location_id = null;
     /**
      * @var string|null
      */
-    public ?string $is_cash_pay;
+    public ?string $is_cash_pay = null;
 
     /**
      * @var string|null
      */
-    public ?string $orig_name;
+    public ?string $orig_name = null;
 
     /**
      * @var string|null
      */
-    public ?string $orig_name_lower;
+    public ?string $orig_name_lower = null;
 }
